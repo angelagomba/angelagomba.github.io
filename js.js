@@ -1,15 +1,15 @@
-window.onscroll = function() {stickyNavBar()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function stickyNavBar() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-    } else {
-        navbar.classList.remove("sticky");
-    }
-}
+// window.onscroll = function() {stickyNavBar()};
+//
+// var navbar = document.getElementById("navbar");
+// var sticky = navbar.offsetTop;
+//
+// function stickyNavBar() {
+//     if (window.pageYOffset >= sticky) {
+//         navbar.classList.add("sticky")
+//     } else {
+//         navbar.classList.remove("sticky");
+//     }
+// }
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
