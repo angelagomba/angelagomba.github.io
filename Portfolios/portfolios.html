@@ -134,12 +134,6 @@
             background-size: cover;
         }
 
-        .image {
-            display: block;
-            width: 100%;
-            height: auto;
-        }
-
         .overlay {
             position: absolute;
             top: 0;
@@ -153,10 +147,6 @@
             background-color: #008CBA;
         }
 
-        .content:hover .overlay {
-            opacity: 1;
-        }
-
         .text {
             color: white;
             font-size: 20px;
@@ -168,6 +158,11 @@
             transform: translate(-50%, -50%);
             text-align: center;
         }
+
+        .parallax_1:hover .overlay {
+            opacity: 1;
+        }
+
     </style>
 </head>
 <body>
@@ -191,25 +186,22 @@
 
 <div class="content">
     <div class="parallax_1"></div>
+    <div class="overlay">
+        <a class="text" href="https://angelagomba.github.io/Portfolios/photoport.html">Photography</a>
+    </div>
 </div>
 
 <div class="content">
     <div style="height:800px;background-color:#eab88d;font-size:36px;text-align:center">
-        <img src="Images/pastelgreen.jpg" alt="Photography" class="image">
-        <div class="overlay">
-            <a class="text" href="https://angelagomba.github.io/Portfolios/photoport.html">
-                Photography to me.
-                <p>
-                    I am as amateur as they come. Although I have taken 2 photography courses where I learned how to develop my
-                    own film, what it meant to change your ISO settings, and how to use Photoshop, my skills in photography
-                    is nothing special. Despite my lack in professional skill, this portfolio is my life. I think of friends
-                    and family, and I see the photos I've taken of them. I despair over heartbreak and loss, and I hold onto
-                    the past in a picture. I wonder about the strangers I've photographed, and how just mere milliseconds of a
-                    snapshot have brought life to my work. This is my life, photography to me.
-                </p>
-            </a>
-        </div>
-
+        Photography to me.
+        <p>
+            I am as amateur as they come. Although I have taken 2 photography courses where I learned how to develop my
+            own film, what it meant to change your ISO settings, and how to use Photoshop, my skills in photography
+            is nothing special. Despite my lack in professional skill, this portfolio is my life. I think of friends
+            and family, and I see the photos I've taken of them. I despair over heartbreak and loss, and I hold onto
+            the past in a picture. I wonder about the strangers I've photographed, and how just mere milliseconds of a
+            snapshot have brought life to my work. This is my life, photography to me.
+        </p>
     </div>
 </div>
 
