@@ -7,11 +7,11 @@
 <body>
 
 <style>
-    body {
+    body, html {
         background-color:#ce3635;
         text-align: center;
         color:#fff;
-        padding-top:20em;
+        height: 100%;
     }
 
     * { color: white; text-decoration: none;}
@@ -44,6 +44,7 @@
 
     .content {
         padding: 16px;
+        height: 100%;
     }
 
     .sticky {
@@ -62,10 +63,14 @@
         top: 0;
     }
 
+    .type {
+        height: 100vh; display: flex; justify-content: center; align-items: center;color: white
+    }
+
 </style>
 
-<h1 style="height: 400px; color: white">
-    <a href="" class="typewrite" data-period="2000"
+<h1 class="type">
+    <a style="display: inline-block" href="" class="typewrite" data-period="2000"
        data-type='[ "Hi, Im Angela.", "Im a Computer Science & Mathematics major from Northeastern University.",
        "Scroll down for more." ]'>
         <span class="wrap"></span>
