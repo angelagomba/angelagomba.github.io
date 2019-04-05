@@ -7,22 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
 
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-size: 28px;
-            font-family: Arial, Helvetica, sans-serif;
+        body {
+            background-color: #6f84ea;
+            text-align: center;
+            color:#fff;
+            padding-top:20em;
         }
 
-        .header {
-            background-color: #f1f1f1;
-            padding: 30px;
-            text-align: center;
-        }
+        * { color: white; text-decoration: none;}
 
         #navbar {
             overflow: hidden;
-            background-color: #333;
+            background-color: #6f84ea;
             z-index: 99 !important;
         }
 
@@ -42,7 +38,7 @@
         }
 
         #navbar a.active {
-            background-color: #5095af;
+            background-color: #6f84ea;
             color: white;
         }
 
@@ -61,7 +57,7 @@
         }
 
         ul {
-            position: -webkit-sticky;
+            position: -webkit-sticky; /* Safari */
             position: sticky;
             top: 0;
         }
@@ -90,9 +86,9 @@
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #5095af;
+            background-color: #6f84ea;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 8px 16px 0px #6f84ea;
             z-index: 1;
         }
 
@@ -155,11 +151,12 @@
 </head>
 <body>
 
-<!--Header -->
-<div class="header">
-    <h2>Portfolios</h2>
-    <p style="font-family:'Raleway', sans-serif;font-size:25px;height:5px">Photography & Advertising</p>
-</div>
+<h1 style="height: 400px; color: white">
+    <a href="" class="typewrite" data-period="2000"
+       data-type='[ "Portfolios:", "Photography", "Advertising" ]'>
+        <span class="wrap"></span>
+    </a>
+</h1>
 
 <!--Navigation bar -->
 <div id="navbar">
@@ -197,6 +194,8 @@
 
     <div class="parallax_2"></div>
 </div>
+
+<script src="type.js"></script>
 
 </body>
 </html>
