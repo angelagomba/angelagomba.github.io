@@ -92,6 +92,29 @@
     .type {
         height: 100vh; display: flex; justify-content: center; align-items: center; color: white
     }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .imgbox {
+        display: grid;
+        height: 100%;
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
 </style>
 
 <h1 class="type">
@@ -170,14 +193,7 @@
         </p>
     </div>
 
-    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img04.JPG');
-            margin: 0;
-            padding: 0;
-            display: grid;
-            height: 100%;
-            max-width: 100%;
-            max-height: 100vh;
-        "></div>
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img04.JPG');"></div>
 
     <div class="bio">
         <a style="font-family: 'Abril Fatface', cursive;">
@@ -193,13 +209,9 @@
         </a>
     </div>
 
-    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img06.JPG');
-            margin: 0;
-            padding: 0;
-            display: grid;
-            height: 100%;
-            max-width: 100%;
-            max-height: 100vh;"></div>
+    <div class="imgbox">
+        <img class="center-fit" src="/angelagomba.github.io/Portfolios/Photography/img06.JPG" alt="">
+    </div>
 
     <div class="bio">
         <a style="font-family: 'Abril Fatface', cursive;">
