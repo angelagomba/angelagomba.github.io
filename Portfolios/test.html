@@ -8,7 +8,7 @@
 
 <style>
     body {
-        background-color:#ce3635;
+        background-color: #a1e08f;
         text-align: center;
         color:#fff;
         padding-top:20em;
@@ -18,7 +18,7 @@
 
     #navbar {
         overflow: hidden;
-        background-color: #ce3635;
+        background-color: #a1e08f;
         z-index: 99 !important;
     }
 
@@ -38,7 +38,7 @@
     }
 
     #navbar a.active {
-        background-color: #ce3635;
+        background-color: #a1e08f;
         color: white;
     }
 
@@ -86,9 +86,9 @@
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #ce3635;
+        background-color: #a1e08f;
         min-width: 160px;
-        box-shadow: 0px 8px 16px 0px #ce3635;
+        box-shadow: 0px 8px 16px 0px #a1e08f;
         z-index: 1;
     }
 
@@ -108,6 +108,56 @@
 
     .dropdown:hover .dropdown-content {
         display: block;
+    }
+
+    .parallax_1 {
+        /* The image used */
+        background-image: url("/angelagomba.github.io/Portfolios/Photography/img01.JPG");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax_2 {
+        /* The image used */
+        background-image: url("/angelagomba.github.io/Portfolios/Photography/img02.JPG");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax_3 {
+        /* The image used */
+        background-image: url("/angelagomba.github.io/Portfolios/Photography/img03.JPG");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bio {
+        height: 400px;
+        background-color: #dcdcdc;
+        font-size: 28px;
+        text-align: center;
+        padding: 250px 300px;
     }
 </style>
 
@@ -136,30 +186,37 @@
 </div>
 
 <!--Page content -->
-<div class="content" style="text-align:left; background-color: white">
-    <h1 style="color:black">Currently under construction</h1>
-    <p style="color:black">Check in later for more!</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>text placed for scrolling</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
+<div class="content">
+    <div class="parallax_1"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            self_portrait_1
+        </a>
+        <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left">
+            In my high school photography class we had to complete a photo journal every week. The theme for this week in
+            particular was to imitate the style of Vivian Dorothy Maier, an American street photographer from the 50s who
+            worked 40 years as a nanny. In her photography collection, you will find self portraits of Maier that were taken
+            through various reflective objects. My self_portrait_ series is my own interpretation of her style.</p>
+        <a style="font-family: 'Abril Fatface', cursive; font-size:15px; text-align: left"
+           href="http://www.vivianmaier.com/about-vivian-maier/">More about Vivian Maier.</a>
+    </div>
+
+    <div class="parallax_2"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            self_portrait_2
+        </a>
+    </div>
+
+    <div class="parallax_3"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            goodnight, new york
+        </a>
+    </div>
 </div>
 
 <script src="type.js"></script>
