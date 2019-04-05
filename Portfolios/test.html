@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Photography to me.</title>
 </head>
 <body>
 
@@ -11,7 +12,6 @@
         background-color: #000000;
         text-align: center;
         color:#fff;
-        padding-top:20em;
     }
 
     * { color: white; text-decoration: none;}
@@ -67,7 +67,7 @@
         color: black;
     }
 
-    .parallax_1 {
+    .parallax {
         /* The image used */
         background-image: url("/angelagomba.github.io/Portfolios/Photography/img01.JPG");
 
@@ -81,46 +81,22 @@
         background-size: cover;
     }
 
-    .parallax_2 {
-        /* The image used */
-        background-image: url("/angelagomba.github.io/Portfolios/Photography/img02.JPG");
-
-        /* Set a specific height */
-        min-height: 800px;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    .parallax_3 {
-        /* The image used */
-        background-image: url("/angelagomba.github.io/Portfolios/Photography/img03.JPG");
-
-        /* Set a specific height */
-        min-height: 800px;
-
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
     .bio {
-        height: 400px;
+        height: 200px;
         background-color: #dcdcdc;
         font-size: 28px;
         text-align: center;
-        padding: 250px 300px;
+        padding: 50px 100px;
+    }
+
+    .type {
+        height: 100vh; display: flex; justify-content: center; align-items: center; color: white
     }
 </style>
 
-<h1 style="height: 400px; color: white">
+<h1 class="type">
     <a href="" class="typewrite" data-period="2000"
-       data-type='[ "Hi, Im Angela.", "Scroll down for more." ]'>
+       data-type='[ "Photography to me.", "Click the image titles to view the full photo.", "Enjoy." ]'>
         <span class="wrap"></span>
     </a>
 </h1>
@@ -135,34 +111,204 @@
 
 <!--Page content -->
 <div class="content">
-    <div class="parallax_1"></div>
+    <div class="parallax"></div>
 
     <div class="bio">
-        <a style="font-family: 'Abril Fatface', cursive;">
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline"
+           href="https://angelagomba.github.io/Portfolios/Photography/img01.JPG">
             self_portrait_1
         </a>
         <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left">
             In my high school photography class we had to complete a photo journal every week. The theme for this week in
             particular was to imitate the style of Vivian Dorothy Maier, an American street photographer from the 50s who
             worked 40 years as a nanny. In her photography collection, you will find self portraits of Maier that were taken
-            through various reflective objects. My self_portrait_ series is my own interpretation of her style.</p>
+            through various reflective objects. The self_portrait_ series is my own interpretation of her style.</p>
         <a style="font-family: 'Abril Fatface', cursive; font-size:15px; text-align: left"
            href="http://www.vivianmaier.com/about-vivian-maier/">More about Vivian Maier.</a>
     </div>
 
-    <div class="parallax_2"></div>
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img02.JPG')"></div>
+
+    <div class="bio" style="padding: 60px 50px">
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline"
+           href="https://angelagomba.github.io/Portfolios/Photography/img02.JPG">
+            self_portrait_2
+        </a>
+        <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left">
+            I had never experienced being the subject of my own photos before. I always thought that photography was
+            supposed to capture beauty, and for a long time I did not consider myself beautiful. Taking these photos and
+            submitting them to my teacher made me feel exposed and almost vulnerable. It was like the mirror was
+            pointing a finger back at me, accusing me of something. The photo journal was graded within a couple of days.
+            Grade: '110%'. Comments: 'Oh My Goodness! What incredible work! These are the most beautiful self-portraits
+            I've graded today. Thank you for the work. Truly wonderful'
+        </p>
+        <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left">
+            The self_portrait_ series was chosen to be displayed at the Santa Monica Malibu Unified School District art
+            show. Seeing my work, my face nonetheless, printed out on poster sized photo paper and hung in a gallery
+            was one of my proudest and most validating moments.
+        </p>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img03.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline"
+           href="https://angelagomba.github.io/Portfolios/Photography/img03.JPG">
+            goodnight, new york
+        </a>
+        <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left">
+            It was my first time in New York City, and the farthest I had been from home (Santa Monica, California). My
+            older sister and I decided to take a week trip to New York City for college tours and sightseeing. Swaying
+            palm trees had been replaced by cascading skyscrapers. The rush of the city had excited me, contrasting to
+            the relaxed atmosphere of living by the beach.
+        </p>
+        <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left">
+            Central Park. My sister had meticulously planned our trip, but once we got to Central Park, we allowed
+            ourselves to wander and get lost. We found ourselves by a body of water, just like home, and the sun
+            began to switch places with the moon. I took my camera out, just in time to capture the moment the moon
+            was peaking over the buildings; when the moon kissed New York City, and said goodnight.
+        </p>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img04.JPG');
+            margin: 0;
+            padding: 0;
+            display: grid;
+            height: 100%;
+            max-width: 100%;
+            max-height: 100vh;
+        "></div>
 
     <div class="bio">
         <a style="font-family: 'Abril Fatface', cursive;">
-            self_portrait_2
+            bird's museum view
         </a>
     </div>
 
-    <div class="parallax_3"></div>
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img05.JPG')"></div>
 
     <div class="bio">
         <a style="font-family: 'Abril Fatface', cursive;">
-            goodnight, new york
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img06.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img07.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img08.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img09.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img10.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img11.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img12.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img13.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img14.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img15.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img16.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img17.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img18.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img19.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
+        </a>
+    </div>
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img20.JPG')"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive;">
+            lorem ipsum
         </a>
     </div>
 </div>
