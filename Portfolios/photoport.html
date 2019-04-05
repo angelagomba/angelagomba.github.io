@@ -1,117 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Photography</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-
-        body, html {
-            height: 100%;
-            margin: 0;
-            font-size: 28px;
-            font-family: Arial, Helvetica, sans-serif, serif;
-        }
-
-        #navbar {
-            overflow: hidden;
-            background-color: #333;
-            z-index: 99 !important;
-        }
-
-        #navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        #navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-
-        #navbar a.active {
-            background-color: #5095af;
-            color: white;
-        }
-
-        .content {
-            padding: 16px;
-        }
-
-        .sticky {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-
-        .sticky + .content {
-            padding-top: 60px;
-        }
-
-        ul {
-            position: -webkit-sticky; /* Safari */
-            position: sticky;
-            top: 0;
-        }
-
-        .parallax_1 {
-            /* The image used */
-            background-image: url("/angelagomba.github.io/Portfolios/Photography/img01.JPG");
-
-            /* Set a specific height */
-            min-height: 800px;
-
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .parallax_2 {
-            /* The image used */
-            background-image: url("/angelagomba.github.io/Portfolios/Photography/img02.JPG");
-
-            /* Set a specific height */
-            min-height: 800px;
-
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .parallax_3 {
-            /* The image used */
-            background-image: url("/angelagomba.github.io/Portfolios/Photography/img03.JPG");
-
-            /* Set a specific height */
-            min-height: 800px;
-
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .bio {
-            height:400px;
-            background-color: #dcdcdc;
-            font-size:28px;
-            text-align:center;
-            padding: 250px 300px;
-        }
-    </style>
+    <title>Title</title>
 </head>
 <body>
+
+<style>
+    body {
+        background-color: #000000;
+        text-align: center;
+        color:#fff;
+        padding-top:20em;
+    }
+
+    * { color: white; text-decoration: none;}
+
+    #navbar {
+        overflow: hidden;
+        background-color: black;
+        z-index: 99 !important;
+    }
+
+    #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    #navbar a.active {
+        background-color: black;
+        color: white;
+    }
+
+    .content {
+        padding: 16px;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .sticky + .content {
+        padding-top: 60px;
+    }
+
+    ul {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: #f2f2f2;
+        color: black;
+    }
+
+    .parallax_1 {
+        /* The image used */
+        background-image: url("/angelagomba.github.io/Portfolios/Photography/img01.JPG");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax_2 {
+        /* The image used */
+        background-image: url("/angelagomba.github.io/Portfolios/Photography/img02.JPG");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax_3 {
+        /* The image used */
+        background-image: url("/angelagomba.github.io/Portfolios/Photography/img03.JPG");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bio {
+        height: 400px;
+        background-color: #dcdcdc;
+        font-size: 28px;
+        text-align: center;
+        padding: 250px 300px;
+    }
+</style>
+
+<h1 style="height: 400px; color: white">
+    <a href="" class="typewrite" data-period="2000"
+       data-type='[ "Hi, Im Angela.", "Scroll down for more." ]'>
+        <span class="wrap"></span>
+    </a>
+</h1>
 
 <!--Navigation bar -->
 <div id="navbar">
@@ -121,6 +133,7 @@
     <a href="https://angelagomba.github.io/Portfolios/portfolios.html">Portfolios</a>
 </div>
 
+<!--Page content -->
 <div class="content">
     <div class="parallax_1"></div>
 
@@ -153,6 +166,8 @@
         </a>
     </div>
 </div>
+
+<script src="type.js"></script>
 
 </body>
 </html>
