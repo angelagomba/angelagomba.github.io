@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Angela Gomba</title>
 </head>
@@ -67,6 +68,28 @@
         height: 100vh; display: flex; justify-content: center; align-items: center;color: white
     }
 
+    .parallax {
+        /* The image used */
+        background-image: url("/angelagomba.github.io/Images/white-11.jpg");
+
+        /* Set a specific height */
+        min-height: 800px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bio {
+        height: 200px;
+        background-color: #dcdcdc;
+        font-size: 28px;
+        text-align: center;
+        padding: 50px 100px;
+    }
+
 </style>
 
 <h1 class="type">
@@ -86,30 +109,19 @@
 </div>
 
 <!--Page content -->
-<div class="content" style="text-align:left; background-color: white">
-    <h1 style="color:black">Currently under construction</h1>
-    <p style="color:black">Check in later for more!</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>text placed for scrolling</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
-    <p>.</p>
+<div class="content" style="text-align:left; background-color: #ce3635">
+
+    <div class="parallax"></div>
+
+    <div class="bio" style="background-color: white">
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline; color: black">
+            It's nice to meet you!
+        </a>
+        <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: center; color: black">
+            Welcome to my personal website. Here you will find portfolios and some of my coding projects (coming soon!).</p>
+    </div>
+
+    <div class="parallax"></div>
 </div>
 
 <script>
