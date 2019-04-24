@@ -1,10 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Writing</title>
+    <title>Writing.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+        body {
+            background-color: white;
+            text-align: center;
+            color:black;
+        }
+
+        * { color: black; text-decoration: none;}
+
+        #navbar {
+            overflow: hidden;
+            background-color: white;
+            z-index: 99 !important;
+        }
+
+        #navbar a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        #navbar a:hover {
+            background-color: black;
+            color: white;
+        }
+
+        #navbar a.active {
+            background-color: white;
+            color: black;
+        }
+
+        .content {
+            padding: 16px;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .sticky + .content {
+            padding-top: 60px;
+        }
+
+        ul {
+            position: -webkit-sticky; /* Safari */
+            position: sticky;
+            top: 0;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url("/angelagomba.github.io/Portfolios/Images/white.jpg");
+
+            /* Set a specific height */
+            min-height: 800px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bio {
+            height:200px;
+            background-color: black;
+            font-size:28px;
+            text-align:center;
+            padding: 100px 170px;
+            z-index: 1;
+        }
+
+        .type {
+            height: 100vh; display: flex; justify-content: center; align-items: center; color: black
+        }
+
+    </style>
 </head>
 <body>
+
+<h1 class="type">
+    <a href="" class="typewrite" data-period="2000"
+       data-type='[ "Computer Science." ]'>
+        <span class="wrap"></span>
+    </a>
+</h1>
+
+<!--Navigation bar -->
+<div id="navbar">
+    <a class="active" href="https://angelagomba.github.io">Home</a>
+    <a href="https://github.com/angelagomba">Github</a>
+    <a href="https://www.linkedin.com/in/angela-gomba-9975a116b">LinkedIn</a>
+    <a href="https://angelagomba.github.io/Portfolios/portfolios.html">Portfolios</a>
+</div>
+
+<div class="content">
+    <div class="parallax"></div>
+
+    <div class="bio">
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline; color: white">
+            Lorem ipsum.
+        </a>
+        <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie enim ut ipsum scelerisque,
+            consequat eleifend metus posuere. Donec accumsan tellus at felis condimentum, in laoreet elit fringilla.
+            Ut at lacinia elit. Nulla efficitur consequat sodales. Maecenas a vulputate diam. Nam bibendum dapibus
+            luctus. Nulla nulla erat, suscipit et risus vel, rhoncus venenatis risus. Nulla pharetra et lorem eu
+            rhoncus. Nam sollicitudin blandit orci ac blandit. Duis turpis nulla, tincidunt a ipsum et, aliquet cursus
+            augue. Nullam quis malesuada nulla, sit amet molestie ante. Proin eget rhoncus ante.
+        </p>
+    </div>
+</div>
+
+<script src="type.js"></script>
 
 </body>
 </html>
