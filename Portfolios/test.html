@@ -87,40 +87,6 @@
         .type {
             height: 100vh; display: flex; justify-content: center; align-items: center;color: white
         }
-
-        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
-            .bio { height:120px}
-            .parallax { min-height:550px}
-        }
-
     </style>
 </head>
 <body>
@@ -141,10 +107,26 @@
 </div>
 
 <div class="content">
-    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Images/white_back.jpg')"></div>
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Images/white_back.jpg');
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { min-height:500px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { min-height:500px}
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { min-height:500px }"></div>
 
     <div class="bio" style="background-color: #6f6f6f">
-        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline"
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { height:120px }"
            href="https://angelagomba.github.io/Portfolios/csport.html">
             Computer Science.
         </a>
@@ -163,10 +145,26 @@
         </p>
     </div>
 
-    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Images/writing.JPG')"></div>
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Images/writing.JPG');
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { min-height:500px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { min-height:500px}
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { min-height:500px }"></div>
 
     <div class="bio" style="background-color: #5772af">
-        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline"
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { height:120px }"
            href="https://angelagomba.github.io/Portfolios/writport.html">
             Writing.
         </a>
@@ -181,10 +179,25 @@
     </div>
 
 
-    <div class="parallax"></div>
+    <div class="parallax" style="@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { min-height:500px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { min-height:500px}
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { min-height:500px }"></div>
 
     <div class="bio">
-        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline"
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { height:120px }"
            href="https://angelagomba.github.io/Portfolios/photoport.html">
             Photography to me.
         </a>
@@ -204,10 +217,26 @@
         </p>
     </div>
 
-    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img001.JPG')"></div>
+    <div class="parallax" style="background-image: url('/angelagomba.github.io/Portfolios/Photography/img001.JPG');
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { min-height:500px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { min-height:500px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { min-height:500px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { min-height:500px}
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { min-height:500px }"></div>
 
     <div class="bio" style="background-color: black">
-        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline"
+        <a style="font-family: 'Abril Fatface', cursive; text-decoration: underline;
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) { height:120px }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) { height:120px }
+        @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) { height:120px }"
            href="https://angelagomba.github.io/Portfolios/advport.html">
             Advertising.
         </a>
