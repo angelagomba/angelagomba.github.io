@@ -82,33 +82,29 @@
 
     }
 
-    .column img {
+    .image {
         margin-top: 8px;
         vertical-align: middle;
         width: 60%;
         padding: 10% 8%;
     }
 
-    .column img:hover {
-        background-color: white;
-    }
-
-    .column img:hover .column a {
+    .image + .content {
         font-family: 'Abril Fatface', cursive;
         font-size: 10px;
-        margin-top: 8px;
-        vertical-align: middle;
-        padding: 10% 8%;
     }
 
-    .column a {
-        font-family: 'Abril Fatface', cursive;
-        font-size: 10px;
-        margin-top: 8px;
-        vertical-align: middle;
-        padding: 10% 8%;
-        opacity: 0;
-    }
+    /*.column:hover ~ .column {*/
+        /*background-color: black;*/
+    /*}*/
+
+    /*.column a {*/
+        /*font-family: 'Abril Fatface', cursive;*/
+        /*font-size: 10px;*/
+        /*margin-top: 8px;*/
+        /*vertical-align: middle;*/
+        /*padding: 10% 8%;*/
+    /*}*/
 
     @media screen and (max-width: 800px) {
         .column {
@@ -146,30 +142,65 @@
 
     <div class="row" style="background-color: #f8f8f8">
         <div class="column">
-            <a>Hello World</a>
-            <img src="/angelagomba.github.io/Portfolios/Photography/img01.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img02.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img03.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img04.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img05.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img06.JPG">
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img01.JPG">
+                <a>Hello World</a>
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img02.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img03.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img04.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img05.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img06.JPG">
+            </div>
         </div>
         <div class="column">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img07.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img08.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img09.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img10.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img11.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img12.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img13.JPG">
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img01.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img02.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img03.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img04.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img05.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img06.JPG">
+            </div>
         </div>
         <div class="column">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img13.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img14.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img15.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img16.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img17.JPG">
-            <img src="/angelagomba.github.io/Portfolios/Photography/img18.JPG">
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img01.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img02.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img03.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img04.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img05.JPG">
+            </div>
+            <div class="image">
+                <img src="/angelagomba.github.io/Portfolios/Photography/img06.JPG">
+            </div>
         </div>
     </div>
 
