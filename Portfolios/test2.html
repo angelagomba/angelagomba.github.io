@@ -9,7 +9,7 @@
 
 <style>
     body, html {
-        background-color: #0e7013;
+        background-color: #000000;
         text-align: center;
         color:#fff;
         height: 100%;
@@ -19,7 +19,7 @@
 
     #navbar {
         overflow: hidden;
-        background-color: #0e7013;
+        background-color: #000000;
         z-index: 99 !important;
     }
 
@@ -39,7 +39,7 @@
     }
 
     #navbar a.active {
-        background-color: #0e7013;
+        background-color: #000000;
         color: white;
     }
 
@@ -77,7 +77,7 @@
 
     .column {
         flex: 30%;
-        max-width: 30%;
+        max-width: 32%;
         padding: 0 4px;
     }
 
@@ -86,6 +86,10 @@
         vertical-align: middle;
         width: 60%;
         padding: 10% 8%;
+    }
+
+    .column img:hover .overlay {
+        opacity: 1;
     }
 
     @media screen and (max-width: 800px) {
@@ -102,11 +106,36 @@
         }
     }
 
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
 </style>
 
 <h1 class="type">
     <a style="display: inline-block" href="" class="typewrite" data-period="2000"
-       data-type='[ "Y."]'>
+       data-type='[ "Yay."]'>
         <span class="wrap"></span>
     </a>
 </h1>
@@ -125,6 +154,9 @@
     <div class="row" style="background-color: #f8f8f8">
         <div class="column">
             <img src="/angelagomba.github.io/Portfolios/Photography/img01.JPG">
+            <div class="overlay">
+                <div class="text">Hello World</div>
+            </div>
             <img src="/angelagomba.github.io/Portfolios/Photography/img02.JPG">
             <img src="/angelagomba.github.io/Portfolios/Photography/img03.JPG">
             <img src="/angelagomba.github.io/Portfolios/Photography/img04.JPG">
