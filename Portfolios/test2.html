@@ -90,11 +90,13 @@
     }
 
     .column img:hover {
-        opacity: 0;
+        transition: .5s ease;
+        opacity: 0.5;
     }
 
     .column img:hover + .bio {
         opacity: 1;
+        transition: .5s ease;
     }
 
     .bio {
@@ -104,8 +106,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        color: white;
-        background-color: black;
+        color: black;
+        background-color: #f8f8f8;
         opacity: 0;
     }
 
@@ -127,7 +129,7 @@
 
 <h1 class="type">
     <a style="display: inline-block" href="" class="typewrite" data-period="2000"
-       data-type='[ "Oh god please."]'>
+       data-type='[ "Thank you."]'>
         <span class="wrap"></span>
     </a>
 </h1>
