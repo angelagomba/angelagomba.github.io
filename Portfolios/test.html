@@ -84,7 +84,7 @@
     .row img {
         margin-top: 8px;
         vertical-align: center;
-        height: 200px;
+        height: 400px;
         padding: 10% 8%;
         float: left
     }
@@ -100,16 +100,30 @@
     }
 
     .bio {
-        font-family: 'Abril Fatface', cursive;
-        font-size: 50px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: black;
+        height: 400px;
+        display: inline-block;
+        /*justify-content: center;*/
+        /*align-items: center;*/
         background-color: #f8f8f8;
         opacity: 0;
         float: right;
+        max-width: 80%;
+    }
+
+    .bio h1 {
+        text-align: left;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 50px;
+        color: black;
+        vertical-align: top;
+    }
+
+    .bio p {
+        font-family: 'Raleway', sans-serif;
+        font-size:18px;
+        text-align: left;
+        color: black;
+        vertical-align: bottom;
     }
 
     @media screen and (max-width: 800px) {
@@ -130,7 +144,7 @@
 
 <h1 class="type">
     <a style="display: inline-block" href="" class="typewrite" data-period="2000"
-       data-type='[ "ooo."]'>
+       data-type='[ "aaa."]'>
         <span class="wrap"></span>
     </a>
 </h1>
@@ -150,8 +164,8 @@
         <div class="row">
             <img src="/angelagomba.github.io/Portfolios/Photography/img01.JPG">
             <div class="bio">
-                self portrait
-                <p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left; color: black">
+                <h1>self portrait</h1>
+                <p>
                     In my high school photography class we had to complete a photo journal every week. The theme for this week in
                     particular was to imitate the style of Vivian Dorothy Maier, an American street photographer from the 50s who
                     worked 40 years as a nanny. In her photography collection, you will find self portraits of Maier that were taken
