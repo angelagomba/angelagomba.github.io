@@ -3,105 +3,121 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Raleway" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>Writing.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-
-        body {
-            background-color: white;
-            text-align: center;
-            color:black;
-        }
-
-        * { color: black; text-decoration: none;}
-
-        #navbar {
-            overflow: hidden;
-            background-color: white;
-            z-index: 99 !important;
-        }
-
-        #navbar a {
-            float: left;
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        #navbar a:hover {
-            background-color: black;
-            color: white;
-        }
-
-        #navbar a.active {
-            background-color: white;
-            color: black;
-        }
-
-        .content {
-            padding: 16px;
-        }
-
-        .sticky {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-
-        .sticky + .content {
-            padding-top: 60px;
-        }
-
-        ul {
-            position: -webkit-sticky; /* Safari */
-            position: sticky;
-            top: 0;
-        }
-
-        .parallax {
-            /* The image used */
-            background-image: url("/angelagomba.github.io/Portfolios/Images/white.jpg");
-
-            /* Set a specific height */
-            min-height: 800px;
-
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .bio {
-            height:200px;
-            background-color: black;
-            font-size:28px;
-            text-align:center;
-            padding: 100px 170px;
-            z-index: 1;
-        }
-
-        .type {
-            height: 100vh; display: flex; justify-content: center; align-items: center; color: black
-        }
-
-    </style>
+    <title>Writing</title>
 </head>
 <body>
 
-<!--<h1 class="type">-->
-    <!--<a href="" class="typewrite" data-period="2000"-->
-       <!--data-type='[ "Writing." ]'>-->
-        <!--<span class="wrap"></span>-->
-    <!--</a>-->
-<!--</h1>-->
+<style>
+    body, html {
+        background-color: #0f7048;
+        text-align: center;
+        color:#fff;
+        height: 100%;
+    }
+
+    * { color: white; text-decoration: none;}
+
+    #navbar {
+        overflow: hidden;
+        background-color: #0f7048;
+        z-index: 99 !important;
+    }
+
+    #navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    #navbar a.active {
+        background-color: #0f7048;
+        color: white;
+    }
+
+    .content {
+        text-align:center;
+        background: white repeat-y;
+    }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    .sticky + .content {
+        padding-top: 60px;
+    }
+
+    ul {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .type {
+        height: 100vh; display: flex; justify-content: center; align-items: center;color: white
+    }
+
+    .grid-container {
+        display: inline-grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+        background-color: white;
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .grid-container > div {
+        background-color: white;
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        max-height: 80%;
+        justify-content: center;
+    }
+
+    .grid-container div img {
+        max-width: 100%;
+    }
+
+    .grid-container div iframe {
+        height: 100%;
+    }
+
+    .grid-container div a {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 35px;
+        color: black;
+        text-align: left;
+        padding: 0 50px;
+        float: left;
+    }
+
+    .grid-container div p {
+        font-family: 'Raleway', sans-serif;
+        font-size:18px;
+        text-align: left;
+        color: black;
+        padding: 0 50px;
+        float: left;
+    }
+
+</style>
 
 <h1 class="type">
-    <a href="" class="typewrite" data-period="2000"
-       data-type='[ "Currently Under Construction." ]'>
+    <a style="display: inline-block" href="" class="typewrite" data-period="2000"
+       data-type='[ "Writing:", "Goodnight, moon.", "Ocean, part 1", "Ocean, part 2" ]'>
         <span class="wrap"></span>
     </a>
 </h1>
@@ -114,120 +130,171 @@
     <a href="https://angelagomba.github.io/Portfolios/portfolios.html">Portfolios</a>
 </div>
 
-<!--<div class="content">-->
+<!--Page content -->
+<div class="content">
 
-    <!--<div class="bio" style="background-color: white; text-align: left">-->
-        <!--<a style="font-family: 'Abril Fatface', cursive">-->
-        <!--Currently working on:-->
-        <!--</a>-->
-        <!--<p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left; color: black">-->
-            <!-- - Proof: A collection of mathematical short stories-->
-        <!--</p>-->
-    <!--</div>-->
+    <div class="grid-container" style="grid-auto-flow: row;">
 
-    <!--<div class="bio" style="background-color: white; height: 500px">-->
-        <!--<a style="font-family: 'Abril Fatface', cursive; color: black">-->
-            <!--"Goodnight, moon."-->
-        <!--</a>-->
-        <!--<p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left; color: black">-->
-            <!--<b>May 25, 2016 @ 2:48am</b><br />-->
-            <!--<br />-->
-            <!--She switches the last light off to go to bed,<br />-->
-            <!--and her room is only illuminated by the moonlight<br />-->
-            <!--that escapes the night sky and seeps through the slits of her window.<br />-->
-            <!--"That's beautiful" she thinks,<br />-->
-            <!--but soon enough questions the validity of that statement.<br />-->
-            <!--What she found beautiful was unnatural, not spontaneous.<br />-->
-            <!--It was the bare minimum of nature,<br />-->
-            <!--for it was only a light;<br />-->
-            <!--light, which man did not create,<br />-->
-            <!--but could reproduce.<br />-->
-            <!--What she saw was a rare sighting of nature making its way into her man-made dwelling,<br />-->
-            <!--amongst a jungle of more concrete buildings.<br />-->
-            <!--Concrete floors,<br />-->
-            <!--concrete walls,<br />-->
-            <!--all created by concrete minds,<br />-->
-            <!--minds filled with innovation.<br />-->
-            <!--Then she thought again.<br />-->
-            <!--It was beautiful.<br />-->
-            <!--In her concrete jungle she found people of concrete hearts and eyes that could not see,<br />-->
-            <!--eyes filled with concrete.<br />-->
-            <!--It wasn't that it was not beautiful,<br />-->
-            <!--but that no one else was looking where she was,<br />-->
-            <!--no one else could participate in this sighting,<br />-->
-            <!--because she was along within the cold walls of her home.<br />-->
-            <!--The moonlight did not keep her warm;<br />-->
-            <!--in fact, its silver slivers made her cry cold tears<br />-->
-            <!--and she realized that her heart was frozen.<br />-->
-            <!--Her hardships had made her cold and unforgiving.<br />-->
-            <!--Her eyes filled with concrete, like everyone else,<br />-->
-            <!--judged others she didn't even know with cynicism.<br />-->
-            <!--Except now.<br />-->
-            <!--Crying in the moonlight had humbled her and made her realize how lonely she was,<br />-->
-            <!--and how she longed to share this secret,<br />-->
-            <!--this affair with the moon and the stars,<br />-->
-            <!--with someone else in order to open their concrete eyes.<br />-->
-            <!--The moonlight grew weaker as she watched it continue to seep through,<br />-->
-            <!--as if she was absorbing its luminous and mysterious beauty.<br />-->
-            <!--"I'll change the world one day," she thought,<br />-->
-            <!--"or at least, my world."<br />-->
-            <!--She kissed the moonlight farewell,<br />-->
-            <!--and before she drifted to dream,<br />-->
-            <!--she said, <i>"Goodnight, moon."</i><br />-->
-        <!--</p>-->
-    <!--</div>-->
+        <!--Goodnight, moon-->
+        <div class="gnmoonbio">
+            <a style="color: #2b1f5b" href="https://angelagomba.github.io/Portfolios/writport.html">
+                "Goodnight, moon."
+            </a>
+            <p>
+                May 25, 2016 @ 2:48am<br />
+                <br />
+                She switches the last light off to go to bed,<br />
+                and her room is only illuminated by the moonlight<br />
+                that escapes the night sky and seeps through the slits of her window.<br />
+                "That's beautiful" she thinks,<br />
+                but soon enough questions the validity of that statement.<br />
+                What she found beautiful was unnatural, not spontaneous.<br />
+                It was the bare minimum of nature,<br />
+                for it was only a light;<br />
+                light, which man did not create,<br />
+                but could reproduce.<br />
+                What she saw was a rare sighting of nature making its way into her man-made dwelling,<br />
+                amongst a jungle of more concrete buildings.<br />
+                Concrete floors,<br />
+                concrete walls,<br />
+                all created by concrete minds,<br />
+                minds filled with innovation.<br />
+                Then she thought again.<br />
+                It was beautiful.<br />
+                In her concrete jungle she found people of concrete hearts and eyes that could not see,<br />
+                eyes filled with concrete.<br />
+                It wasn't that it was not beautiful,<br />
+                but that no one else was looking where she was,<br />
+                no one else could participate in this sighting,<br />
+                because she was along within the cold walls of her home.<br />
+                The moonlight did not keep her warm;<br />
+                in fact, its silver slivers made her cry cold tears<br />
+                and she realized that her heart was frozen.<br />
+                Her hardships had made her cold and unforgiving.<br />
+                Her eyes filled with concrete, like everyone else,<br />
+                judged others she didn't even know with cynicism.<br />
+                Except now.<br />
+                Crying in the moonlight had humbled her and made her realize how lonely she was,<br />
+                and how she longed to share this secret,<br />
+                this affair with the moon and the stars,<br />
+                with someone else in order to open their concrete eyes.<br />
+                The moonlight grew weaker as she watched it continue to seep through,<br />
+                as if she was absorbing its luminous and mysterious beauty.<br />
+                "I'll change the world one day," she thought,<br />
+                "or at least, my world."<br />
+                She kissed the moonlight farewell,<br />
+                and before she drifted to dream,<br />
+                she said, <i>"Goodnight, moon."</i><br />
+            </p>
+        </div>
+        <div class="gnmoon">
+            <iframe src="https://giphy.com/embed/RHKC03PmyovSV8dmRB" frameBorder="0" allowFullScreen></iframe>
+        </div>
 
-    <!--<div class="parallax"></div>-->
+        <!--Ocean, part 1-->
+        <div class="ocean1">
+            <iframe src="https://giphy.com/embed/l4FGDTowQPmFI43mw" frameBorder="0" allowFullScreen></iframe>
+        </div>
+        <div class="oceanbio1">
+            <a style="color: #21acbe" href="https://angelagomba.github.io/Portfolios/photoport.html">
+                "Ocean, part 1"
+            </a>
+            <p>
+                June 26, 2016 @ 12:23am<br />
+                <br />
+                Go and watch the ocean waves.<br />
+                Sit at the edge of the top of the sand<br />
+                and watch the love affair between the tide and the shore.<br />
+                It comes close,<br />
+                but it never touches you.<br />
+                Your eyes draw to the horizon,<br />
+                past the crashing waves,<br />
+                and you picture yourself getting farther<br />
+                and farther away from the shore.<br />
+                There may be land out there,<br />
+                but you don't have the courage to chase your daydreams.<br />
+                The mist of the water layers over your body,<br />
+                but you don't notice<br />
+                because you wonder where the sun sets,<br />
+                and why it kisses the water.<br />
+                Your mind wanders out there,<br />
+                and drowns your heart<br />
+                ----------------------------<br />
+                Go with the wind and reach the shore.<br />
+                Crash just before,<br />
+                and let the foam kiss the sand at the edge.<br />
+                You come close,<br />
+                but you never touch him.<br />
+                Your eyes draw to him,<br />
+                sitting atop the sand,<br />
+                and you picture yourself reaching closer and closer to him.<br />
+                He may sit there for a while,<br />
+                but he's looking past you.<br />
+                and you can only hope to unbury his toes from the sand.<br />
+                You want to reach him,<br />
+                but you don't have the strength of a tsunami;<br />
+                and even if you did,<br />
+                you wouldn't want to destroy what you touch.<br />
+                You look back and see the sun kiss the water,<br />
+                and curse the moon for not creating higher tides.<br />
+                You turn back towards the shore,<br />
+                and see he came closer,<br />
+                stuck his feet in,<br />
+                then ran away from the shore.<br />
+            </p>
+        </div>
 
-    <!--<div class="bio" style="background-color: white; height: 500px">-->
-        <!--<a style="font-family: 'Abril Fatface', cursive; color: black">-->
-            <!--"Ocean, part 1"-->
-        <!--</a>-->
-        <!--<p style="font-family: 'Raleway', sans-serif; font-size:18px; text-align: left; color: black">-->
-            <!--<b>June 26, 2016 @ 12:23am</b><br />-->
-            <!--<br />-->
-            <!--Go and watch the ocean waves.<br />-->
-            <!--Sit at the edge of the top of the sand<br />-->
-            <!--and watch the love affair between the tide and the shore.<br />-->
-            <!--It comes close,<br />-->
-            <!--but it never touches you.<br />-->
-            <!--Your eyes draw to the horizon,<br />-->
-            <!--past the crashing waves,<br />-->
-            <!--and you picture yourself getting farther<br />-->
-            <!--and farther away from the shore.<br />-->
-            <!--There may be land out there,<br />-->
-            <!--but you don't have the courage to chase your daydreams.<br />-->
-            <!--The mist of the water layers over your body,<br />-->
-            <!--but you don't notice<br />-->
-            <!--because you wonder where the sun sets,<br />-->
-            <!--and why it kisses the water.<br />-->
-            <!--Your mind wanders out there,<br />-->
-            <!--and drowns your heart<br />-->
-            <!--&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;<br />-->
-            <!--Go with the wind and reach the shore.<br />-->
-            <!--Crash just before,<br />-->
-            <!--and let the foam kiss the sand at the edge.<br />-->
-            <!--You come close,<br />-->
-            <!--but you never touch him.<br />-->
-            <!--Your eyes draw to him,<br />-->
-            <!--sitting atop the sand,<br />-->
-            <!--and you picture yourself reaching closer and closer to him.<br />-->
-            <!--He may sit there for a while,<br />-->
-            <!--but he's looking past you.<br />-->
-            <!--and you can only hope to unbury his toes from the sand.<br />-->
-            <!--You want to reach him,<br />-->
-            <!--but you don't have the strength of a tsunami;<br />-->
-            <!--and even if you did,<br />-->
-            <!--you wouldn't want to destroy what you touch.<br />-->
-            <!--You look back and see the sun kiss the water,<br />-->
-            <!--and curse the moon for not creating higher tides.<br />-->
-            <!--You turn back towards the shore,<br />-->
-            <!--and see he came closer,<br />-->
-            <!--stuck his feet in,<br />-->
-            <!--then ran away from the shore.<br />-->
-        <!--</p>-->
-    <!--</div>-->
-<!--</div>-->
+        <!--Ocean, part 2-->
+        <div class="oceanbio2">
+            <a style="color: #21acbe" href="https://angelagomba.github.io/Portfolios/advport.html">
+                "Ocean, part 2"
+            </a>
+            <p>
+                August 14, 2017 @ 8:14pm<br />
+                <br />
+                It's been a year<br />
+                since the ocean made me cry salt tears,<br />
+                since I let the ocean drown my fears.<br />
+                <br />
+                The edge of the water soaks the sand,<br />
+                and it's time for us to go across the land,<br />
+                as we say our goodbyes to friends.<br />
+                <br />
+                We can't see the exchange of kisses,<br />
+                the way the ocean catches the sun and misses,<br />
+                but we throw our coins and make our wishes,<br />
+                and the foam just hisses.<br />
+                <br />
+                Each day each hour each minute is spent,<br />
+                wondering where our time together went,<br />
+                how we plan to chase the dreams we slept,<br />
+                but the ocean keeps our skin wet.<br />
+                <br />
+                As the wind blows the waves,<br />
+                and our minds and hearts start to crave,<br />
+                we wonder if we can be brave,<br />
+                and exchange our sandy footprints for our futures to pave.<br />
+                <br />
+                It is no longer he and the shore,<br />
+                but each of us yearning for more.<br />
+                <br />
+                A year ago he dipped his feet and ran from the shore,<br />
+                but not out of greed or fear or because he wasn't sure<br />
+                but because it wasn't his time to drown and venture,<br />
+                and find the ocean's hidden treasures.<br />
+                <br />
+                The sea no longer chases us,<br />
+                for we ride the wind like dust,<br />
+                and the sea no longer curses the moon,<br />
+                for we will all see each other soon.<br />
+            </p>
+        </div>
+        <div class="ocean2">1
+            <iframe src="https://giphy.com/embed/d4bmS3gNyzHk0f8Q" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+        </div>
+    </div>
+
+</div>
 
 <script src="type.js"></script>
 
