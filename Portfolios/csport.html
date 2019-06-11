@@ -74,6 +74,52 @@
             height: 100vh; display: flex; justify-content: center; align-items: center; color: black
         }
 
+        .grid-container {
+            display: inline-grid;
+            grid-template-columns: 45% 45%;
+            grid-template-rows: auto auto;
+            grid-gap: 10px;
+            background-color: white;
+            padding: 10px;
+            justify-content: center;
+        }
+
+        .grid-container > div {
+            background-color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 30px;
+            max-height: 80%;
+            justify-content: center;
+        }
+
+        .grid-container div img {
+            max-width: 100%;
+        }
+
+        .grid-container div iframe {
+            height: 100%;
+        }
+
+        .grid-container div a {
+            font-family: 'Abril Fatface', cursive;
+            font-size: 35px;
+            color: black;
+            text-align: left;
+            padding: 0 50px;
+            float: left;
+            text-decoration: underline;
+        }
+
+        .grid-container div p {
+            font-family: 'Raleway', sans-serif;
+            font-size:18px;
+            text-align: left;
+            color: black;
+            padding: 0 50px;
+            float: left;
+        }
+
     </style>
 </head>
 <body>
